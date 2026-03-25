@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente moderna */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+
+/* Contenedor principal */
+body {
+    max-width: 800px;
+    margin: auto;
+    background: #111827;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+
+
+/* Imagen + nombre */
+img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+}
+
+/* Nombre */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contacto */
+p {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #cbd5f5;
+}
+
+/* Links */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Separador */
+hr {
+    border: none;
+    height: 1px;
+    background: #334155;
+    margin: 25px 0;
+}
+
+/* Secciones */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+/* Subtítulos */
+h3 {
+    margin-top: 15px;
+    color: #f1f5f9;
+}
+
+/* Fechas */
+em {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+/* Efecto hover suave */
+body:hover {
+    transform: scale(1.005);
+    transition: 0.3s ease;
+}
